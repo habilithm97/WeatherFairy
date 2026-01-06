@@ -3,7 +3,7 @@ package com.example.weatherfairy.retrofit
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-// API 호출을 정의하는 서비스 인터페이스
+// API 엔드포인트 및 요청 정의
 interface WeatherService {
     @GET("getVilageFcst") // GET 방식으로 "getVilageFcst" 엔드포인트 호출
     suspend fun getWeather(

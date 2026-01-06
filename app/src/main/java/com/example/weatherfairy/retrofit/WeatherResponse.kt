@@ -1,6 +1,6 @@
 package com.example.weatherfairy.retrofit
 
-// API JSON 데이터를 담는 데이터 클래스
+// API JSON 응답 매핑
 data class WeatherResponse( // 최상위 응답
     val response: Response // 응답 데이터
 )
